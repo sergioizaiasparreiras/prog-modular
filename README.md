@@ -1,8 +1,12 @@
+<p align="center">
+  <img src="img/java.jpg" alt="Java Programming" width="400">
+</p>
+
 # **Exercícios de Revisão - Programação Modular (Java)**
 
 <p align="center">
   <img src="https://img.shields.io/badge/Linguagem-Java-blue?style=for-the-badge&logo=java" alt="Linguagem Java">
-  <img src="https://img.shields.io/badge/Status-Concluído-brightgreen?style=for-the-badge" alt="Status Concluído">
+  <img src="https://img.shields.io/badge/Status-Em%20Andamento-orange?style=for-the-badge" alt="Status Em Andamento">
   <img src="https://img.shields.io/badge/Licença-MIT-lightgrey?style=for-the-badge" alt="Licença MIT">
 </p>
 
@@ -41,47 +45,68 @@ Aqui está a lista de problemas abordados neste repositório:
 
 O repositório está organizado em múltiplos projetos Java independentes, um para cada exercício, facilitando a navegação e execução individual de cada solução.
 
-
-puc-minas-programacao-modular/
+```
+prog-modular/
+├── codigos/
+│   ├── exercicio-01/
+│   │   ├── src/
+│   │   │   └── App.java
+│   │   └── README.md
+│   ├── exercicio-02/
+│   │   ├── src/
+│   │   │   └── App.java
+│   │   └── README.md
+│   ├── exercicio-03/
+│   │   ├── src/
+│   │   │   └── App.java
+│   │   └── README.md
+│   ├── exercicio-04/
+│   │   ├── src/
+│   │   │   └── App.java
+│   │   └── README.md
+│   ├── exercicio-05/
+│   │   ├── src/
+│   │   │   └── App.java
+│   │   └── README.md
+│   ├── exercicio-06/
+│   │   ├── src/
+│   │   │   └── App.java
+│   │   └── README.md
+│   └── exercicio-07/
+│       ├── src/
+│       │   └── App.java
+│       └── README.md
+├── docs/
+│   └── PM_Exerc_Rev_Diagnostico-2025-2.pdf
+├── img/
+│   └── java.jpg
 ├── .gitignore
-├── README.md
-├── exercicio-01/
-├── exercicio-02/
-├── exercicio-03/
-├── exercicio-04/
-├── exercicio-05/
-├── exercicio-06/
-└── exercicio-07/
+└── README.md
+```
 
 
 ## 🚀 Como Executar
 
-Para executar os projetos, é recomendado ter um ambiente de desenvolvimento Java configurado. As instruções abaixo são para o **Visual Studio Code**.
-
 ### Pré-requisitos
+- Java JDK 8 ou superior
+- Git
 
-* [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/downloads/)
-* [Visual Studio Code](https://code.visualstudio.com/)
-* [Extension Pack for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack) para o VS Code
+### Execução
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/sergioizaiasparreiras/prog-modular.git
+   ```
 
-### Passo a Passo
+2. **Navegue até um exercício:**
+   ```bash
+   cd prog-modular/codigos/exercicio-01
+   ```
 
-1.  **Clone o repositório:**
-    ```bash
-    git clone [https://github.com/seu-usuario/puc-minas-programacao-modular.git](https://github.com/seu-usuario/puc-minas-programacao-modular.git)
-    ```
-2.  **Abra uma pasta de exercício no VS Code:**
-    * No VS Code, vá em `File > Open Folder...`
-    * Selecione a pasta do exercício que deseja executar (ex: `exercicio-01/`).
-3.  **Execute o código:**
-    * Abra o arquivo `.java` localizado dentro da pasta `src/`.
-    * Clique no botão **"Run"** que aparece no canto superior direito do editor ou pressione a tecla `F5`.
-
-## 👨‍💻 Autor
-
-| [<img src="https://avatars.githubusercontent.com/u/SEU_USER_ID?v=4" width="100px;"/><br /><sub><b>Seu Nome</b></sub>](https://github.com/seu-usuario) |
-| :---: |
-
+3. **Compile e execute:**
+   ```bash
+   javac src/App.java
+   java -cp src App
+   ```
 
 ## 📄 Licença
 
