@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="img/java.jpg" alt="Java Programming" width="400">
+  <img src="img/doomjava.jpg" alt="Java Programming" width="400">
 </p>
 
 # **Exercícios de Revisão - Programação Modular (Java)**
